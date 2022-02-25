@@ -1,0 +1,177 @@
+.miniroom {
+    padding-bottom: 30px;
+    border-radius: 15px;
+    width: 90%;
+    align-items: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.line{
+    border-bottom: 1px solid lightgray;
+    content: "";
+    display: block;
+    width: 100%;
+    margin: auto
+}
+
+.underline{
+    border-bottom: 1px dashed lightgray;
+    content: "";
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.text-menu{
+    color: rgb(65, 146, 251);
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu_1{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    border: 1px solid lightgray;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: none;
+}
+
+.menu_2{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.row_4{
+    background-color: white;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 0px 0px 15px 15px;
+    border-top: none;
+    overflow: auto;
+}
+
+.row_1{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 15px;
+}
+
+.row_3{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 15px 15px 0px 0px;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.diary{
+margin: 10px;
+}
+
+.hashtag{
+    color: slateblue;
+}
+
+.calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 80px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+.calendar > table, tr, th, td {
+    padding: 2px 5px;
+
+    color: rgb(75, 75, 75);
+
+    text-align: left;
+    font-size: 14px;
+}
+.calendar table {
+    border-collapse: collapse;
+}
+.calendar th {
+    padding: 2px 15px 2px 0;
+    color: black;
+
+    border-right: 1px solid lightgray;
+}
+
+.red {
+    color: orangered;
+}
+.blue {
+    color: slateblue;
+}
+.white {
+    color: white;
+}
+
+.diary{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 13px;
+    font-family: 'Hi Melody', cursive;
+}
+
+.diary > .date {
+    font-weight: bold;
+    font-size: 20px;
+    color: slateblue;
+}
+
+.diary > .content {
+    text-align: center;
+    padding: 10px;
+}
+
+.secret {
+    width: auto;
+    color:white;
+    background-color:white;
+    border:1px solid white;
+    font-family: 'NeoDunggeunmo';
+    margin:auto;
+    padding: 10px 20px 10px 20px;
+    display:block;
+    margin-bottom:20px;
+}
+
+.secret:hover{
+    background-color:slateblue;
+    color: white;
+
+    width: auto;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}   
+
+#secret-box{
+    display: none;
+}
+

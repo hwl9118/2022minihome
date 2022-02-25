@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Gothic+A1&family=Hi+Melody&display=swap');
+
+.btn-red{
+    background-color: rgb(255, 92, 113);
+    color: white;
+    border-radius: 13px;
+    font-size: 12px;
+    padding: 4px 8px;
+    margin: 5px;
+    margin-left: 15px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.btn-blue{
+    background-color: rgb(89, 138, 251);
+    color: white;
+    border-radius: 13px;
+    font-size: 12px;
+    padding: 4px 8px;
+    margin: 5px;
+    margin-left: 15px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.btn-next{
+    font-size: 14px;
+    padding: 4px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.profile-text{
+    margin: 40px 10px 0px 10px;
+    font-size: 15px;
+    font-family: 'Hi Melody', cursive;
+}
+
+.profile-name{
+    margin: 200px 10px 20px 30px;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Hi Melody', cursive;
+}
+
+.row1{
+    flex: 0.5;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+text{
+    color: red;
+    font-family: 'Gothic A1', sans-serif;
+}
+

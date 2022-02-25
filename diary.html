@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2022 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./style/day8/font.css" />
+    <link rel="stylesheet" href="./style/day8/layout.css" />
+    <link rel="stylesheet" href="./style/day8/diary.css" />
+    <script src="https://kit.fontawesome.com/fcc19f747f.js" crossorigin="anonymous"></script>
+
+</head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+            <div class="col1">
+                <div class="row1">TODAY<text> 28</text>　|　TOTAL 234918</div>
+                <div class="row2">
+                    <div style="text-align: center;" class="profile">
+                        <img src="./img/profile.jpg" width="120">
+                        <p class="profile-text">
+                            세상을 따돌리는 것 처럼 보이겠지만 <br>
+                            사실은 세상과 함께 살아 가고 싶어 <br>
+                            <br>
+                            아무도 내 마음을 몰라주는게 아닐까 
+                        <p class="profile-name"> 쿠로미</p>
+                        
+                        <div class="dropdown">
+                            <select name="surfing" class="surfing">
+                                <option value="none" selected disabled hidden><a class="dropdown-item" href="#">파도타기</a></option>
+                                <option value="코뮤니티로 가기" >코뮤니티로 가기</option>
+                                <option value="인스타그램으로 가기">인스타그램으로 가기</option>
+                            </select>
+                          </div>
+
+                    </div>
+                </div> 
+            </div>
+            <div class="col2">
+                <div class="row_1">
+                    <span class="head_2">추억상자~🥰</span>
+                    <span class="head_3">https://url링크입력</span>
+                </div>
+
+                <div class="row_3">
+                    <div class="calendar">
+                        <table>
+                            <tr>
+                                <th>02.21</th>
+                                <td class="red first">1</td>
+                                <td class="red">2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td class="blue">5</td>
+                                <td class="red">6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td class="blue">12</td>
+                                <td class="red">13</td>
+                                <td>14</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <th>Mon</th>
+                                <td class="first">16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td class="blue">19</td>
+                                <td class="red">20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td class="blue">26</td>
+                                <td class="red">27</td>
+                                <td>28</td>
+                                <td class="white">29</td>
+                                <td class="white">30</td>
+                                <td class="white">31</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row_4">
+                        <div class="diary">
+                            <div class="date">2022년 01월 21일</div>
+                            <div class="content">
+                                싸이월드 감성으로 페이지 제작하는 단계 <br>
+                                어릴적 싸이월드를 쓰질 않아서 이 감성이 뭔지 따라가기 힘들다 <br>
+                                내 어릴적 감성은 대체 무엇인가에 대하여...
+                            </div>
+                        </div>
+                        <div class="diary">
+                            <div class="date">2022년 02월 21일</div>
+                            <div class="content">
+                                요즘 주접글들의 출처나 다름없지만 요즘 주접밖에 못하는 사람..... <br>
+                                그 사람들이 어릴때 싸이월드 하다가 넘어온게 분명한데 <br>
+                                왜 나는 주접만 가능한걸까 <br>
+                                <br>
+                                ... 그냥 꼬옥.... 잘 만들어주면 되...
+                            </div>
+                        </div>
+                        <div class="diary">
+                            <div class="date">2022년 01월 31일</div>
+                            <div class="content">
+                                이런걸 만드는데 너무 힘들다 이겁니다... <br>
+                                하지만 나만의 홈페이지 만들기? 오히려 좋아 <br>
+                                어떻게든 만들어서 배포 <span class="hashtag">#해보자고</span>
+                            </div>
+                        </div>
+                        <div class="diary">
+                            <div class="date">2022년 02월 01일</div>
+                            <div class="content">
+                                마지막 <span class="hashtag">#아무말_대잔치</span>분량 <br>
+                                그래도 어떻게 다 만들어냈으니 만족 대만족
+                            </div>
+                        </div>
+                        <div class="diary">
+                            <div class="date">2022년 02월 11일</div>
+                            <div class="content">
+                                정말 진짜 마지막 <span class="hashtag">#아무말_대잔치</span> 다이어리 <br>
+                                스크롤 편집을 위해 새로운 게시물을 만들게 되었다.
+                            </div>
+                        </div>
+                        <div class="secret">
+                            <div onclick="getTextFile()">
+                              <i class="fas fa-lock"></i> 비밀 일기 보러 올래?
+                            </div>
+                          </div>
+                          <div class="diary" id="secret-box">
+                            <div class="date">내 비밀을 알게 된 너를 환영해 </div>
+                            <div class="content" id="secret-diary"></div>
+                          </div>                        
+                    </div>
+            </div>
+            <div class="menu">
+                <a href="day9.html"><button class="btn-menu">홈</button></a>
+                <a href="diary.html"><button class="btn-menu">다이어리</button></a>
+                <a href="photo.html"><button class="btn-menu">포토북</button></a>
+                <a href="guest.html"><button class="btn-menu">방명록</button></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+      function getTextFile() {
+          var input = document.createElement("input");
+          input.type = "file";
+          input.accept = "text/plain";
+          input.onchange = function (event) {
+              processFile(event.target.files[0]);
+          };
+          input.click();
+      }
+
+      function processFile(file) {
+          var reader = new FileReader();
+          reader.readAsText(file, "utf-8");
+
+          reader.onload = function () {
+              document.getElementById("secret-diary").innerText = reader.result;
+              document.getElementById("secret-box").style.display = "block";
+          };
+      }
+  </script>
+</html>

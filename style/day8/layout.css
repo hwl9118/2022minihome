@@ -1,0 +1,121 @@
+body {
+    background-color:rgb(190, 190, 190);
+    background-image: url("../../img/pattern.png");
+    background-size: 100px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.bookcover {
+    background-color: #b4d1da;
+    border-radius: 9px;
+    border: 1px solid rgba(50, 50, 50, 0.5);
+    width: 1000px;
+    height: 700px;
+    margin: 100px auto;
+    position: relative;
+}
+.bookdot {
+    border-radius: 9px;
+    border: 2px dashed white;
+    
+    top: 8px;
+    left: 15px;
+
+    width: 965px;
+    height: 665px;
+
+    position: absolute;
+    display: flex;
+    margin: 10px auto;
+}
+.page {
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+
+    top: 10px;
+    left: 15px;
+    width: 935px;
+    height: 640px;
+    position: absolute;
+    display: flex;
+}
+.col1 {
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+    margin: 15px;
+}
+.col2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin:  10px;
+}
+
+.menu {
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: -10px;
+}
+
+.row2{
+    background-color: white;
+    display: flex;
+    flex: 9;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.profile{
+    margin: 40px 0px 0px 0px;
+}
+
+.head_2{
+    display: flex;
+    flex-direction: row;
+    flex: 0.5;
+    font-family: 'Hi Melody', cursive;
+}
+
+.head_3{
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 0.5;
+    font-family: 'Hi Melody', cursive;
+}
+
+.dropdown{
+    width: 90%;
+    height: 40px;
+    background-color: none;
+    text-align: left;
+}
+
+.btn-menu{
+    width: 100px;
+    height: 35px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(150, 209, 233);
+    border: none;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.btn-menu:hover{
+    width: 100px;
+    height: 35px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(101, 161, 230);
+    border: none;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: left;
+    margin-top: 10px;
+}
